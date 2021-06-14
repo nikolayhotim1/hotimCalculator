@@ -26,7 +26,6 @@ function makeOperation(operationCode) {
 }
 
 function onOperationButtonClick(eventObject) {
-    debugger;
     let clickedElement = eventObject.currentTarget;
     let operation = clickedElement.innerHTML;
     makeOperation(operation);
