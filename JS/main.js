@@ -1,10 +1,3 @@
-// let buttonPlus = document.getElementById("buttonPlus");
-// let buttonMinus = document.getElementById("buttonMinus");
-// let buttonMultiply = document.getElementById("buttonMultiply");
-// let buttonDevide = document.getElementById("buttonDevide");
-
-// let operationButtons = [buttonPlus, buttonMinus, buttonMultiply, buttonDevide];
-
 let operationButtons = document.getElementsByClassName("operation_button");
 
 let input1 = document.getElementById("number1");
